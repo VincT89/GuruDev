@@ -1,3 +1,3 @@
 export * from "./auth.js";
 export * from "./error.js";
-export * from ".upload.js";
+export * from "./upload.js";

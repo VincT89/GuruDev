@@ -37,7 +37,6 @@ export function initSocket(server) {
 	// Handle new socket connections
 	io.on("connection", (socket) => {
 		console.log("Socket connected:", socket.id);
-		console.log("User:", socket.userId);
 
 		// Join a personal room for the user (important for direct messaging)
 		socket.join(socket.userId);
